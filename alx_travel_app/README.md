@@ -10,9 +10,8 @@ This project is a Django-based travel application. It includes models for listin
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/Tabbytech/alx_travel_app_0x00/tree/main>
    cd alx_travel_app_0x00
-(Replace <repository_url> with the actual URL of your repository if you are using one.)
 
 Create a virtual environment (recommended):
 
@@ -26,7 +25,6 @@ Install dependencies:
 Bash
 
 pip install -r requirements.txt
-(You might need to create a requirements.txt file if you haven't already. You can generate it using pip freeze > requirements.txt after installing Django and Django REST Framework.)
 
 Navigate to the project directory:
 
@@ -63,7 +61,6 @@ API Endpoints (Example - you'll need to define these in your urls.py)
 
 /api/bookings/: To view and create bookings.
 
-(You'll need to define your actual API endpoints in your Django urls.py files.)
 
 Models
 Listing: Represents a property available for booking.
