@@ -5,6 +5,7 @@ class ListingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Listing
         fields = ['listing_id', 'title', 'description', 'price_per_night', 'location', 'created_at', 'updated_at']
+        
         read_only_fields = ['listing_id', 'created_at', 'updated_at']
 
 class BookingSerializer(serializers.ModelSerializer):
